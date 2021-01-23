@@ -1,9 +1,8 @@
 import "./App.css";
 import PortfolioHeader from "../components/PortfolioHeader";
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "../components/Main.jsx";
-import {Link} from "react-router-dom"
-
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
       <div>
         <div className="demo-big-content">
           <Layout>
-            <Header title="Title" scroll>
+            <Header className="header-color" title="Title" scroll>
               <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
@@ -21,7 +20,7 @@ function App() {
             </Header>
             <Drawer title="Title">
               <Navigation>
-              <Link to="/resume">Resume</Link>
+                <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
@@ -29,7 +28,7 @@ function App() {
             </Drawer>
             <Content>
               <div className="page-content" />
-              <Main/>
+              <Main />
             </Content>
           </Layout>
         </div>
