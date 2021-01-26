@@ -1,78 +1,132 @@
 .header-color {
-  /* background: #2c3e50;
-  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
-  background: linear-gradient(to right, #3498db, #2c3e50); */
-
-  background: #603813;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
-
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-    background: #603813;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-   
-
+  background: #603813;
+  background: -webkit-linear-gradient(
+    to right,
+    #b29f94,
+    #603813
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b29f94,
+    #603813
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-image: url("../images/Portfolio-Background.jpg");
+  background-size: 100% 100%;
 }
 
-.avatar-img{
-    height:250px;
-    padding-top: 5em;
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
 }
 
-.banner-text{
-    background-color: black;
-    opacity: .8;
-    width: 75%;
-    margin: auto;
-    border-radius: 10px;
-    text-align: center;
-    
+.banner-text {
+  background-color: black;
+  opacity: 0.5;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
 }
 
-.banner-text h1{
-    font-size: 66px;
-    font-weight: bold;
-    color: rgb(163, 103, 103);
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: rgb(163, 103, 103);
 }
 
-.banner-text hr{
-    border-top :5px dotted white;
-    width : 50%;
-    margin : auto;
-
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
 
-.banner-text p{
-    color : white;
-    font-size: 20px;
-    padding : 1em;
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
 }
 
 .social-links {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: auto;
-
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }
 
 .social-links i {
-    color: white;
-    font-size: 5em;
-    padding: 8px;
-
+  color: white;
+  font-size: 5em;
+  padding: 8px;
 }
 
-.projects-grid{
-    display: flex;
+.projects-grid {
+  display: flex;
+  background: #603813;
+}
+
+.contact-body {
+  margin: auto;
+  background: #603813;
+  /* background-image: url("../images/Portfolio-Background.jpg"); */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 60%;
+  height: 80%;
+  background: white;
+  color: black;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
+}
+
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-weight: 66px;
+  padding-right: 5rem;
+}
+
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
 }
