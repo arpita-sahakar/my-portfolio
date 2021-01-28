@@ -6,17 +6,15 @@ function Contact() {
     <div className="contact-body">
       <Grid className="contact-grid">
         <Cell col={6}>
-          <h2>Arpita</h2>
+          <h2>Arpita Kar</h2>
           <img
             src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
             alt="avatar"
             style={{ height: "250px" }}
           />
           <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
-            accusantium ducimus eligendi, voluptate aut unde excepturi vero
-            necessitatibus dolor accusamus pariatur illo culpa veritatis, in
-            asperiores adipisci labore vel fugit?
+            Full Stack MERN Web Developer. Passionate about coding and problem
+            solving. Currently pursuing Georgia Tech Coding Bootcamp.
           </p>
         </Cell>
         <Cell col={6}>
@@ -25,34 +23,40 @@ function Contact() {
           <div className="contact-list">
             <List>
               <ListItem>
-                <ListItemContent style={{fontSize:"30px", fontFamily:"Anton"}}>
-                    <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (123) 456=7890
-                 </ListItemContent>
+                <ListItemContent
+                  style={{ fontSize: "30px", fontFamily: "Anton" }}
+                >
+                  <i className="fa fa-phone-square" aria-hidden="true" />
+                  (623) 277 6540
+                </ListItemContent>
               </ListItem>
 
               <ListItem>
-                <ListItemContent style={{fontSize:"30px", fontFamily:"Anton"}}>
-                    <i className="fa fa-fax" aria-hidden="true"/>
-                    (123) 456=7890
-                 </ListItemContent>
+                <ListItemContent
+                  style={{ fontSize: "30px", fontFamily: "Anton" }}
+                >
+                  <i className="fa fa-fax" aria-hidden="true" />
+                  (623) 277 6540
+                </ListItemContent>
               </ListItem>
 
               <ListItem>
-                <ListItemContent style={{fontSize:"30px", fontFamily:"Anton"}}>
-                    <i className="fa fa-envelope" aria-hidden="true"/>
-                    arpita.sahaa@gmail.com
-                 </ListItemContent>
+                <ListItemContent
+                  style={{ fontSize: "30px", fontFamily: "Anton" }}
+                >
+                  <i className="fa fa-envelope" aria-hidden="true" />
+                  arpita.sahaa@gmail.com
+                </ListItemContent>
               </ListItem>
 
               <ListItem>
-                <ListItemContent style={{fontSize:"30px", fontFamily:"Anton"}}>
-                    <i className="fa fa-github-alt" aria-hidden="true"/>
-                    My zoom
-                 </ListItemContent>
+                <ListItemContent
+                  style={{ fontSize: "30px", fontFamily: "Anton" }}
+                >
+                  <i className="fa fa-github-alt" aria-hidden="true" />
+                  arpita.sahaa@gmail.com
+                </ListItemContent>
               </ListItem>
-              
-
             </List>
           </div>
         </Cell>

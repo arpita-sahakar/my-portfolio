@@ -86,7 +86,7 @@
 
 .contact-body {
   margin: auto;
-  background: #603813;
+  background: #5a5753;
   /* background-image: url("../images/Portfolio-Background.jpg"); */
   position: fixed;
   width: 100%;
@@ -97,7 +97,7 @@
 .contact-grid {
   text-align: center;
   justify-content: center;
-  width: 60%;
+  width: 80%;
   height: 80%;
   background: white;
   color: black;
@@ -110,7 +110,7 @@
 }
 
 .contact-grid p {
-  font-family: "Oxygen", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
