@@ -1,20 +1,8 @@
 import React from "react";
-import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
-  CardTitle,
-  CardActions,
-  Button,
-  CardMenu,
-  IconButton,
-  Card,
-  CardText,
-} from "react-mdl";
+import { Tabs, Tab, Grid, Cell } from "react-mdl";
 import { useState } from "react";
 import "../container/App.css";
-import projects from "./projects.json";
+import projects from "./projects_list.json";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {
@@ -41,15 +29,20 @@ function Projects() {
       return projects
         .filter((proj) => proj.tech === "express")
         .map((proj) => <ProjectCard {...proj} />);
+    } else if (activeTab === 4) {
+      return projects
+        .filter((proj) => proj.tech === "node")
+        .map((proj) => <ProjectCard {...proj} />);
     }
   };
   return (
     <div className="category-tabs">
       <Tabs activeTab={activeTab} onChange={handleChange} ripple>
-        <Tab>React</Tab>
+        <Tab>ReactJs</Tab>
         <Tab>MongoDb</Tab>
         <Tab>JQuery</Tab>
-        <Tab>Express</Tab>
+        <Tab>ExpressJs</Tab>
+        <Tab>NodeJs</Tab>
       </Tabs>
 
       <Grid id="proGrid">
