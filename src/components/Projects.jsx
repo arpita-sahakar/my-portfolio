@@ -38,11 +38,11 @@ function Projects() {
   return (
     <div className="category-tabs">
       <Tabs activeTab={activeTab} onChange={handleChange} ripple>
-        <Tab>ReactJs</Tab>
-        <Tab>MongoDb</Tab>
-        <Tab>JQuery</Tab>
-        <Tab>ExpressJs</Tab>
-        <Tab>NodeJs</Tab>
+        <Tab style={{color:"black", fontWeight:"bold"}} >ReactJs</Tab>
+        <Tab style={{color:"black", fontWeight:"bold"}} >MongoDb</Tab>
+        <Tab style={{color:"black", fontWeight:"bold"}} >JQuery</Tab>
+        <Tab style={{color:"black", fontWeight:"bold"}} >ExpressJs</Tab>
+        <Tab style={{color:"black", fontWeight:"bold"}} >NodeJs</Tab>
       </Tabs>
 
       <Grid id="proGrid">

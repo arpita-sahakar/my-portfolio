@@ -8,7 +8,7 @@ function Contact() {
         <Cell col={6}>
           <h2>Arpita Kar</h2>
           <img
-            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+            src="https://github.com/arpita-sahakar/my-portfolio/blob/main/public/IMG_0374_cropped.jpg?raw=true"
             alt="avatar"
             style={{ height: "250px" }}
           />

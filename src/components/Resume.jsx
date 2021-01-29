@@ -11,7 +11,7 @@ function Resume() {
         <Cell col={4}>
           <div style={{ textAlign: "center" }}>
             <img
-              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fGdpcmx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+              src="https://github.com/arpita-sahakar/my-portfolio/blob/main/public/IMG_0374_cropped.jpg?raw=true"
               alt="avatar"
               style={{ height: "200px" }}
             />

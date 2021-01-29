@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
 
 function App() {
+  const picUrl = "https://github.com/arpita-sahakar/my-portfolio/blob/main/public/IMG_1925_cropped.jpg?raw=true";
   return (
     <div>
       <div>
@@ -34,7 +35,7 @@ function App() {
 
             <Content>
               <div className="page-content" />
-              <Main />
+              <Main pic={picUrl}/>
             </Content>
           </Layout>
         </div>
