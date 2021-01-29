@@ -12,7 +12,7 @@ function Contact() {
             alt="avatar"
             style={{ height: "250px" }}
           />
-          <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+          <p style={{ width: "75%", margin: "auto", paddingTop: "1em" , textAlign:"center", textJustify:"inter-word"}}>
             Full Stack MERN Web Developer. Passionate about coding and problem
             solving. Currently pursuing Georgia Tech Coding Bootcamp.
           </p>

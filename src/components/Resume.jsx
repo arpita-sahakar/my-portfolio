@@ -2,12 +2,12 @@ import React from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./Education.jsx";
 import Experience from "./Experience";
-import Skills from "./Skills";
+import "../container/App.css";
 
 function Resume() {
   return (
     <div>
-      <Grid>
+      <Grid id="resumeBackground">
         <Cell col={4}>
           <div style={{ textAlign: "center" }}>
             <img
@@ -16,30 +16,31 @@ function Resume() {
               style={{ height: "200px" }}
             />
           </div>
-          <h2 style={{ paddingTop: "2em" }}>Arpita Kar</h2>
-          <h4 style={{ color: "grey" }}>Full Stack Web Developer</h4>
-          <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            nobis expedita numquam maiores quas laboriosam quidem repudiandae,
-            rerum labore exercitationem quos quod fuga quasi iusto laudantium
-            aperiam est. Nesciunt, iure!
-          </p>
-          <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-          <h5>Address</h5>
-          <p>
-            8001 Lake Union Hill Way Rd,
-            <br /> Alpharetta GA-30004
-          </p>
-          <h5>Phone</h5>
-          <p>623-277-6540</p>
-          <h5>Email</h5>
-          <p>arpita.sahaa@gmail.com</p>
-          <h5>Github</h5>
-          <p>https://github.com/arpita-sahakar</p>
-          <h5>Linkedin</h5>
-          <p>www.linkedin.com/in/arpita-kar-29b8b069</p>
-          <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+
+          <div className="resume-leftside">
+            <h2 style={{ paddingTop: "2em" }}>Arpita Kar</h2>
+            <h4>Full Stack Web Developer</h4>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <p>
+              Full Stack MERN Web Developer. Passionate about coding and problem
+              solving. Currently pursuing Georgia Tech Coding Bootcamp.
+            </p>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <h5>Address</h5>
+            <p>
+              8001 Lake Union Hill Way Rd,
+              <br /> Alpharetta GA-30004
+            </p>
+            <h5>Phone</h5>
+            <p>623-277-6540</p>
+            <h5>Email</h5>
+            <p>arpita.sahaa@gmail.com</p>
+            <h5>Github</h5>
+            <p>https://github.com/arpita-sahakar</p>
+            <h5>Linkedin</h5>
+            <p>www.linkedin.com/in/arpita-kar-29b8b069</p>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+          </div>
         </Cell>
         <Cell className="resume-right-col" col={8}>
           <h2>Education</h2>
@@ -51,17 +52,17 @@ function Resume() {
           />
 
           <Education
-            startYear={2020}
-            endYear={2021}
-            schoolName={"Georgia-Tech"}
-            schoolDesc={"Full Stack Web-Development BootCamp"}
+            startYear={2011}
+            endYear={2013}
+            schoolName={"Makhanlal Chaturvedi University, India"}
+            schoolDesc={"Master's in PR & Advertising"}
           />
 
           <Education
-            startYear={2020}
-            endYear={2021}
-            schoolName={"Georgia-Tech"}
-            schoolDesc={"Full Stack Web-Development BootCamp"}
+            startYear={2006}
+            endYear={2009}
+            schoolName={"University of Calcutta, India"}
+            schoolDesc={"Bachelor in Arts"}
           />
 
           <hr style={{ borderTop: "3px solid #e22947" }} />
@@ -70,28 +71,51 @@ function Resume() {
           <Experience
             startYear={2012}
             endYear={2015}
-            jobName={"First Job"}
-            jobDesc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                      nobis expedita numquam maiores quas laboriosam quidem repudiandae,
-                      rerum labore exercitationem quos quod fuga quasi iusto laudantium
-                      aperiam est. Nesciunt, iure!"
+            jobName={"Hotel Ramada Navi Mumbai, India"}
+            jobDesc="Worked as Asst. Sales-Marketing Manager. Handling hotel room sales. Dealing with various corporate clients for room-booking and other reservations."
           />
 
-          <Experience
-            startYear={2018}
-            endYear={2020}
-            jobName={"Second Job"}
-            jobDesc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                      nobis expedita numquam maiores quas laboriosam quidem repudiandae,
-                      rerum labore exercitationem quos quod fuga quasi iusto laudantium
-                      aperiam est. Nesciunt, iure!"
-          />
           <hr style={{ borderTop: "3px solid #e22947" }} />
           <h2>Skills</h2>
+          {/* <Skills skill={"HTML/CSS?"} />
           <Skills skill={"JavaScript"} />
           <Skills skill={"JavaScript"} />
-          <Skills skill={"JavaScript"} />
-          <Skills skill={"JavaScript"} />
+          <Skills skill={"JavaScript"} /> */}
+          {/* <p>
+            ReactJs, React Hooks, MongoDb, Mongoose, Axios, NodeJs, Express,
+            MySQL, Heroku, Github, Github-pages, ORM, Sequelize, JQuery,
+            JavaScript, Bootstrap, HTML, CSS.
+          </p> */}
+          <Grid className="demo-grid-1">
+            <Cell col={3}>ReactJs</Cell>
+            <Cell col={3}>React Hooks</Cell>
+            <Cell col={3}>MongoDb</Cell>
+            <Cell col={3}>Mongoose</Cell>
+          </Grid>
+          <Grid className="demo-grid-1">
+            <Cell col={3}>Axios</Cell>
+            <Cell col={3}>NodeJs</Cell>
+            <Cell col={3}>Express</Cell>
+            <Cell col={3}>MySQL</Cell>
+          </Grid>
+          <Grid className="demo-grid-1">
+            <Cell col={3}>Heroku</Cell>
+            <Cell col={3}>Github</Cell>
+            <Cell col={3}>Github-pages</Cell>
+            <Cell col={3}>ORM</Cell>
+          </Grid>
+          <Grid className="demo-grid-1">
+            <Cell col={3}>Sequelize</Cell>
+            <Cell col={3}>JQuery</Cell>
+            <Cell col={3}>JavaScript</Cell>
+            <Cell col={3}>Bootstrap</Cell>
+          </Grid>
+          <Grid className="demo-grid-1">
+            <Cell col={3}>HTML</Cell>
+            <Cell col={3}>CSS</Cell>
+            <Cell col={3}></Cell>
+            <Cell col={3}></Cell>
+          </Grid>
         </Cell>
       </Grid>
     </div>

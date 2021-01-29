@@ -25,6 +25,7 @@ function Projects() {
   const toggle = () => {
     if (activeTab === 0) {
       return (
+       
         <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
@@ -135,13 +136,14 @@ function Projects() {
       </Tabs>
 
      
-        <Grid>
+        <Grid id="proGrid">
           <Cell col={12}>
             <div className="content">{toggle()}</div>
           </Cell>
         </Grid>
 
     </div>
+    
   );
 }
 

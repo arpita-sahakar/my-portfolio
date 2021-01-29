@@ -3,6 +3,7 @@ import PortfolioHeader from "../components/PortfolioHeader";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "../components/Main.jsx";
 import { Link } from "react-router-dom";
+import Nav from "../components/Nav";
 
 function App() {
   return (
@@ -19,25 +20,18 @@ function App() {
               }
               scroll
             >
-              <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-              </Navigation>
+              <Nav />
             </Header>
-            <Drawer title={
+            <Drawer
+              title={
                 <Link style={{ textDecoration: "none", color: "black" }} to="/">
                   My Portfolio
                 </Link>
-              }>
-              <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-              </Navigation>
+              }
+            >
+              <Nav />
             </Drawer>
+
             <Content>
               <div className="page-content" />
               <Main />

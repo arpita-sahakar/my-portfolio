@@ -81,18 +81,26 @@
 
 .projects-grid {
   display: flex;
-  background: #603813;
+  /* background-image: url("https://lh3.googleusercontent.com/proxy/iaxc53Qeg7LbBGrXBHXkcaENK7Z2USfnmK3YecvH8EWcxa6AUf3eaxyeRwbOrhSFd-sUO1lJYbMtcCtYM_HxfQIPYP-ICFr1pyBATluBBNWc");
+  background-size: 100% 100%; */
 }
 
+/* .category-tabs {
+  background-image: url("https://lh3.googleusercontent.com/proxy/iaxc53Qeg7LbBGrXBHXkcaENK7Z2USfnmK3YecvH8EWcxa6AUf3eaxyeRwbOrhSFd-sUO1lJYbMtcCtYM_HxfQIPYP-ICFr1pyBATluBBNWc");
+  background-size: 100% 100%;
+} */
+
 .contact-body {
+ 
   margin: auto;
-  background: #5a5753;
-  /* background-image: url("../images/Portfolio-Background.jpg"); */
+  background-image: url("https://lh3.googleusercontent.com/proxy/iaxc53Qeg7LbBGrXBHXkcaENK7Z2USfnmK3YecvH8EWcxa6AUf3eaxyeRwbOrhSFd-sUO1lJYbMtcCtYM_HxfQIPYP-ICFr1pyBATluBBNWc");
+  background-size: 100% 100%;
   position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
   padding-top: 2em;
+ 
 }
 .contact-grid {
   text-align: center;
@@ -126,7 +134,45 @@
 }
 
 .resume-right-col {
-  background: #27221f;
-  color: white;
+  background: white;
   padding: 2em;
+
+
+}
+
+.aboutMe{
+  margin: auto;
+  background: #5a5753;
+  /* background-image: url("../images/Portfolio-Background.jpg"); */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  background-image: url("https://lh3.googleusercontent.com/proxy/iaxc53Qeg7LbBGrXBHXkcaENK7Z2USfnmK3YecvH8EWcxa6AUf3eaxyeRwbOrhSFd-sUO1lJYbMtcCtYM_HxfQIPYP-ICFr1pyBATluBBNWc");
+  background-size: 100% 100%;
+}
+
+.about-grid {
+  text-align: center;
+  justify-content: center;
+  width: 60%;
+  height: 80%;
+  background: white;
+  color: black;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+#resumeBackground {
+  background-image: url("https://lh3.googleusercontent.com/proxy/iaxc53Qeg7LbBGrXBHXkcaENK7Z2USfnmK3YecvH8EWcxa6AUf3eaxyeRwbOrhSFd-sUO1lJYbMtcCtYM_HxfQIPYP-ICFr1pyBATluBBNWc");
+  background-size: 100% 100%;
+}
+/* .mdl-layout_content{
+  background-image: url("https://lh3.googleusercontent.com/proxy/iaxc53Qeg7LbBGrXBHXkcaENK7Z2USfnmK3YecvH8EWcxa6AUf3eaxyeRwbOrhSFd-sUO1lJYbMtcCtYM_HxfQIPYP-ICFr1pyBATluBBNWc");
+  background-size: 100% 100%;
+} */
+
+.resume-leftside{
+  color : white;
 }
