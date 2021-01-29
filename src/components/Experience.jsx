@@ -5,11 +5,11 @@ function Experience(props) {
   return (
     <Grid>
     <Cell col={4}>
-        <p>{props.startYear} - {props.endYear}</p>
+        <p style={{fontWeight:"bold"}}>{props.startYear} - {props.endYear}</p>
     </Cell>
     <Cell col={8}>
         <h4 style={{marginTop:"0px"}}>{props.jobName}</h4>
-        <p>{props.jobDesc}</p>
+        <p style={{fontWeight:"bold"}}>{props.jobDesc}</p>
     </Cell>
 </Grid>
   )

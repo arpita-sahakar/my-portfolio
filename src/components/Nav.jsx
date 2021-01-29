@@ -6,10 +6,10 @@ function Nav() {
   return (
     <>
       <Navigation>
-        <Link to="/resume">Resume</Link>
-        <Link to="/aboutme">About Me</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/resume"><span style={{fontWeight:"bold"}}>Resume</span></Link>
+        <Link to="/aboutme"><span style={{fontWeight:"bold"}}>About Me</span></Link>
+        <Link to="/projects"><span style={{fontWeight:"bold"}}>Projects</span></Link>
+        <Link to="/contact"><span style={{fontWeight:"bold"}}>Contact</span></Link>
       </Navigation>
     </>
   );

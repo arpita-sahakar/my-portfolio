@@ -25,7 +25,7 @@ function LandingPage() {
             <div className="social-links">
               {/* Linkedin */}
               <a
-                href="https://google.com"
+                href="https://linkedin.com/in/arpita-kar-29b8b069"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -33,7 +33,7 @@ function LandingPage() {
               </a>
               {/* Github */}
               <a
-                href="https://google.com"
+                href="https://github.com/arpita-sahakar"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -42,7 +42,7 @@ function LandingPage() {
 
               {/* StackOverflow */}
               <a
-                href="https://google.com"
+                href="https://stackoverflow.com/users/14134239/arpita-saha"
                 target="_blank"
                 rel="noopener noreferrer"
               >

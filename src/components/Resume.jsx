@@ -86,31 +86,31 @@ function Resume() {
             MySQL, Heroku, Github, Github-pages, ORM, Sequelize, JQuery,
             JavaScript, Bootstrap, HTML, CSS.
           </p> */}
-          <Grid className="demo-grid-1">
+          <Grid className="demo-grid-1" style={{fontWeight:"bold"}}>
             <Cell col={3}>ReactJs</Cell>
             <Cell col={3}>React Hooks</Cell>
             <Cell col={3}>MongoDb</Cell>
             <Cell col={3}>Mongoose</Cell>
           </Grid>
-          <Grid className="demo-grid-1">
+          <Grid className="demo-grid-1" style={{fontWeight:"bold"}}>
             <Cell col={3}>Axios</Cell>
             <Cell col={3}>NodeJs</Cell>
             <Cell col={3}>Express</Cell>
             <Cell col={3}>MySQL</Cell>
           </Grid>
-          <Grid className="demo-grid-1">
+          <Grid className="demo-grid-1" style={{fontWeight:"bold"}}>
             <Cell col={3}>Heroku</Cell>
             <Cell col={3}>Github</Cell>
             <Cell col={3}>Github-pages</Cell>
             <Cell col={3}>ORM</Cell>
           </Grid>
-          <Grid className="demo-grid-1">
+          <Grid className="demo-grid-1" style={{fontWeight:"bold"}}>
             <Cell col={3}>Sequelize</Cell>
             <Cell col={3}>JQuery</Cell>
             <Cell col={3}>JavaScript</Cell>
             <Cell col={3}>Bootstrap</Cell>
           </Grid>
-          <Grid className="demo-grid-1">
+          <Grid className="demo-grid-1" style={{fontWeight:"bold"}}>
             <Cell col={3}>HTML</Cell>
             <Cell col={3}>CSS</Cell>
             <Cell col={3}></Cell>
