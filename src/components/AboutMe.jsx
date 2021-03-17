@@ -24,7 +24,7 @@ function AboutMe() {
               textAlign: "justify",
               textJustify: "inter-word",
             }}
-          >
+          > jack and Jill
             Currently pursuing Bootcamp in web development from Georgia Tech.
             Used ReactJS, React Hooks, Mongodb, Mongoose, IndexedDB, NodeJs,
             Express, MySQL, Orm, Sequelize, JQuery, JavaScript, Bootstrap, HTML,
