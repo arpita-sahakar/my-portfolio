@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Cell } from "react-mdl";
 import "../container/App.css";
+import profPic from "../images/profilePic.jpg";
 
 function LandingPage() {
   return (
@@ -8,7 +9,7 @@ function LandingPage() {
       <Grid className="landing-grid">
         <Cell col={12}>
           <img
-            src="https://github.com/arpita-sahakar/jack-jill/blob/main/src/images/jack-jill1.png?raw=true"
+            src= {profPic}
             alt="avatar"
             className="avatar-img"
           />

@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./Education.jsx";
 import Experience from "./Experience";
 import "../container/App.css";
+import profPic from "../images/profilePic.jpg";
 
 function Resume() {
   return (
@@ -11,7 +12,7 @@ function Resume() {
         <Cell col={4}>
           <div style={{ textAlign: "center" }}>
             <img
-              src="https://github.com/arpita-sahakar/my-portfolio/blob/main/public/IMG_0374_cropped.jpg?raw=true"
+              src={profPic}
               alt="avatar"
               style={{ height: "200px" }}
             />
@@ -69,10 +70,10 @@ function Resume() {
 
           <h2>Experience</h2>
           <Experience
-            startYear={2012}
-            endYear={2015}
-            jobName={"Hotel Ramada Navi Mumbai, India"}
-            jobDesc="Worked as Asst. Sales-Marketing Manager. Handling hotel room sales. Dealing with various corporate clients for room-booking and other reservations."
+            startYear={2020}
+            endYear={2021}
+            jobName={"Student Developer at Trilogy Education Services - Atlanta, GA"}
+            jobDesc="Worked on multiple projects using MERN Stack. Refer project section."
           />
 
           <hr style={{ borderTop: "3px solid #e22947" }} />
