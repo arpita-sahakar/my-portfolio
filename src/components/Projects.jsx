@@ -29,20 +29,21 @@ function Projects() {
       return projects
         .filter((proj) => proj.tech === "express")
         .map((proj) => <ProjectCard {...proj} />);
-    } else if (activeTab === 4) {
-      return projects
-        .filter((proj) => proj.tech === "node")
-        .map((proj) => <ProjectCard {...proj} />);
     }
+    // else if (activeTab === 4) {
+    //   return projects
+    //     .filter((proj) => proj.tech === "node")
+    //     .map((proj) => <ProjectCard {...proj} />);
+    // }
   };
   return (
     <div className="category-tabs">
       <Tabs activeTab={activeTab} onChange={handleChange} ripple>
-        <Tab style={{color:"black", fontWeight:"bold"}} >ReactJs</Tab>
-        <Tab style={{color:"black", fontWeight:"bold"}} >MongoDb</Tab>
-        <Tab style={{color:"black", fontWeight:"bold"}} >JQuery</Tab>
-        <Tab style={{color:"black", fontWeight:"bold"}} >ExpressJs</Tab>
-        <Tab style={{color:"black", fontWeight:"bold"}} >NodeJs</Tab>
+        <Tab style={{ color: "black", fontWeight: "bold" }} >ReactJs</Tab>
+        <Tab style={{ color: "black", fontWeight: "bold" }} >MongoDb</Tab>
+        <Tab style={{ color: "black", fontWeight: "bold" }} >JQuery</Tab>
+        <Tab style={{ color: "black", fontWeight: "bold" }} >ExpressJs / NodeJs</Tab>
+        {/* <Tab style={{ color: "black", fontWeight: "bold" }} >NodeJs</Tab> */}
       </Tabs>
 
       <Grid id="proGrid">
