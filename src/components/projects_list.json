@@ -86,5 +86,29 @@
         "imageUrl": "https://github.com/arpita-sahakar/Atlanta-Fandom-Social/raw/main/client/src/assets-sort/react-project-fandom-social-image.JPG",
         "githubUrl": "https://github.com/arpita-sahakar/Atlanta-Fandom-Social",
         "liveUrl": "https://atlanta-fandom-social-app.herokuapp.com"
+    },
+    {
+        "tech": "mongo",
+        "name": "Budget Tracker",
+        "desc": "This application allows users to track their withdrawals and deposits with out without a data/internet connection so that the user's account balance is accurate when they are travelling.",
+        "imageUrl": "https://github.com/arpita-sahakar/budget-tracker/raw/main/public/images/manifest.png",
+        "githubUrl": "https://github.com/arpita-sahakar/budget-tracker",
+        "liveUrl": "https://still-spire-54332.herokuapp.com/"
+    },
+    {
+        "tech": "node",
+        "name": "Budget Tracker",
+        "desc": "This application allows users to track their withdrawals and deposits with out without a data/internet connection so that the user's account balance is accurate when they are travelling.",
+        "imageUrl": "https://github.com/arpita-sahakar/budget-tracker/raw/main/public/images/manifest.png",
+        "githubUrl": "https://github.com/arpita-sahakar/budget-tracker",
+        "liveUrl": "https://still-spire-54332.herokuapp.com/"
+    },
+    {
+        "tech": "express",
+        "name": "Budget Tracker",
+        "desc": "This application allows users to track their withdrawals and deposits with out without a data/internet connection so that the user's account balance is accurate when they are travelling.",
+        "imageUrl": "https://github.com/arpita-sahakar/budget-tracker/raw/main/public/images/manifest.png",
+        "githubUrl": "https://github.com/arpita-sahakar/budget-tracker",
+        "liveUrl": "https://still-spire-54332.herokuapp.com/"
     }
 ]
