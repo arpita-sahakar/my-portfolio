@@ -46,5 +46,13 @@
         "imageUrl": "https://github.com/arpita-sahakar/weather-Dashboard/raw/main/Assets/images/weather-dashboard.JPG",
         "githubUrl": "https://github.com/arpita-sahakar/weather-Dashboard",
         "liveUrl": "https://arpita-sahakar.github.io/weather-Dashboard/"
+    },
+    {
+        "tech": "react",
+        "name": "Atlanta Fandom Social",
+        "desc": "Are you a fan of multimedia pop culture and living in Atlanta? Atlanta Fandom Social is built just for you! Sign up and become a member of countless communities alike! From comics, anime, video games, cosplay, and so much more! We're your one stop social media app for local conventions, pop culture news, and so much more.",
+        "imageUrl": "https://github.com/arpita-sahakar/Atlanta-Fandom-Social/raw/main/client/src/assets-sort/react-project-fandom-social-image.JPG",
+        "githubUrl": "https://github.com/arpita-sahakar/Atlanta-Fandom-Social",
+        "liveUrl": "https://atlanta-fandom-social-app.herokuapp.com"
     }
 ]
