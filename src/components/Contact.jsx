@@ -12,9 +12,8 @@ function Contact() {
             alt="avatar"
             style={{ height: "250px" }}
           />
-          <p style={{ width: "75%", margin: "auto", paddingTop: "1em" , textAlign:"center", textJustify:"inter-word"}}>
-            Full Stack MERN Web Developer. Passionate about coding and problem
-            solving. Currently pursuing Georgia Tech Coding Bootcamp.
+          <p style={{ width: "75%", margin: "auto", paddingTop: "1em", textAlign: "center", textJustify: "inter-word" }}>
+            Full Stack MERN Web Developer | JavaScript | jQuery | MySQL | MongoDB | React | Node.js | Express | GitHub | HTML | CSS | Bootstrap | Jira | Agile
           </p>
         </Cell>
         <Cell col={6}>
@@ -45,7 +44,7 @@ function Contact() {
                   style={{ fontSize: "30px", fontFamily: "Anton" }}
                 >
                   <i className="fa fa-envelope" aria-hidden="true" />
-                  arpita.sahaa@gmail.com
+                  arpita050386@gmail.com
                 </ListItemContent>
               </ListItem>
 

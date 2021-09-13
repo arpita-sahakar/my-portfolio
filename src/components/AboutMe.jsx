@@ -25,18 +25,16 @@ function AboutMe() {
               textJustify: "inter-word",
             }}
           >
+            Bachelor's from Calcutta University and Masters degree from Makhanlal University.
             Graduated Bootcamp on Full Stack Web Development from Georgia Tech.
-            Used ReactJS, React Hooks, Mongodb, Mongoose, IndexedDB, NodeJs,
-            Express, MySQL, Orm, Sequelize, JQuery, JavaScript, Bootstrap, HTML,
-            CSS, Github, Heroku for all development and deployment of multiple
-            projects. I want to be a Web Application Developer and Online
-            Business Developer with considerable training and enterprise
-            experience in Web site design and layout and in all stages of
-            design, coding, and testing of Web applications, and in the
-            formation, planning, and implementation of online business ventures.{" "}
+            Used JavaScript , jQuery , MySQL , MongoDB , React , Node.js , Express , GitHub , HTML , CSS , Bootstrap , Jira , Agile methodology
+            for all development. Started career as a trainee, promoted to Jr. developer and then to developer. Worked on enhancement and maintainance of Hotel
+            Management Software. Gathering business requirements from product owner along with Backlog grooming and Sprint planning. Demo session to
+            Team and Product owner
+            {" "}
             <br />
             <br />
-            To obtain a position as a web application developer in a fun, fast
+            Looking forward to obtain a position as a web application developer in a fun, fast
             paced, cutting edge environment that promotes teamwork and integrity
             and that fosters personal and professional development.
           </h6>

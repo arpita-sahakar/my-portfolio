@@ -23,8 +23,7 @@ function Resume() {
             <h4>Full Stack Web Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Full Stack MERN Web Developer. Passionate about coding and problem
-              solving. Graduated from Georgia Tech Coding Bootcamp in Full Stack Web Development utilizing MERN.
+              Full Stack Web Developer. Passionate about coding and problem solving. Worked on various project utilizing MERN stack. Ability to effectively work with team members ensuring fulfillment of desired requirements. Prior to transitioning to coding I worked into marketing industry as a marketing manager.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
@@ -76,6 +75,13 @@ function Resume() {
             jobDesc="Worked on multiple projects using MERN Stack. Refer project section."
           />
           <Experience
+            startYear={2017}
+            endYear={2020}
+            jobName={"Developer at Ignite - India"}
+            jobDesc="Worked on enhancement and maintainance of Hotel Management Software. Gathering business requirements from product owner along with Backlog grooming and Sprint planning. Demo session to Team and Product owner"
+          />
+
+          <Experience
             startYear={2012}
             endYear={2015}
             jobName={"Asst. Sales-Marketing Manager at Hotel Ramada Navi Mumbai, India"}
@@ -121,8 +127,8 @@ function Resume() {
           <Grid className="demo-grid-1" style={{ fontWeight: "bold" }}>
             <Cell col={3}>HTML</Cell>
             <Cell col={3}>CSS</Cell>
-            <Cell col={3}></Cell>
-            <Cell col={3}></Cell>
+            <Cell col={3}>Jira</Cell>
+            <Cell col={3}>Agile</Cell>
           </Grid>
         </Cell>
       </Grid>
